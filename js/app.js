@@ -98,7 +98,6 @@ function saveuser() {
 						alert('Este numero de cedula ya ha sido ingresado. Favor ingresar nuevos datos.');
 						$('#casaricaform').show();
 						$('#guardando').hide();
-						$('#nombre').val("");
 					}
 				})
 				.error(function(data) {
