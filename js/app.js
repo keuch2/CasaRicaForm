@@ -17,7 +17,7 @@ function saveuser(nombre, apellido, cedula, elemail, telefono, direccion, ciudad
 			alert('Ingresa tu apellido.'); 
 		} else if ($('#cedula').val()=="") {
 			alert('Ingresa tu cedula.'); 
-		} else if (($('#telefono1').val()=="")||($('#telefono2').val()=="")) {
+		} else if (($('#telefono1').val()=="")&&($('#telefono2').val()=="")) {
 			alert('Ingresa tu telefono laboral o particular.'); 
 		} else  if ($('#elemail').val()=="") {
 			alert('Ingresa tu email.'); 
