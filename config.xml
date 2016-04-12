@@ -24,7 +24,7 @@
     <icon src="icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
     <icon src="icon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
 	
-	<!-- <preference name="fullscreen" value="true" />  -->
+	<preference name="fullscreen" value="false" /> 
 	
 	<preference name="stay-in-webview" value="false" />
 	<preference name="android-windowSoftInputMode" value="adjustResize" />
