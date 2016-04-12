@@ -26,8 +26,8 @@
 	
 	<preference name="fullscreen" value="true" />
 	
-	<preference name="stay-in-webview" value="false">
-	<preference name="android-windowSoftInputMode" value="adjustResize">
+	<preference name="stay-in-webview" value="false" />
+	<preference name="android-windowSoftInputMode" value="adjustResize" />
 	
     <feature name="http://api.phonegap.com/1.0/network"/>
     <access origin="*" />
